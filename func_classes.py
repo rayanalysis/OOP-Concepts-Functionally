@@ -50,7 +50,8 @@ def polymorphic_comp(whatever):
         
 # encapsulation
 def encapsuled_data():
-    secret_info = ['secret_1', 'secret_2', 'secret_3']
+    secret_info = ['secret_3', 'secret_1', 'secret_2']
+    secret_info.sort()
     not_secret_info = ['unsecret_1', 'unsecret_2', 'unsecret_3']
     print(not_secret_info)
     return not_secret_info
