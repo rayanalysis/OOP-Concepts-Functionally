@@ -1,0 +1,16 @@
+import func_classes as f
+
+f.print_this('Panda')
+f.add_these()
+f.do_nothing()
+f.print_add_these(4, 10)
+f.print_add_these()
+f.meow()
+f.meow('woof')
+f.inherit_data(40)
+f.double_inherit_data()
+f.polymorphic_comp(1)
+f.polymorphic_comp('water')
+f.polymorphic_comp(False)
+f.polymorphic_comp(3.14)
+f.encapsuled_data()
